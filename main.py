@@ -20,3 +20,8 @@ for idx, item in enumerate(results['items']):
 
 user_id = sp.me()['id']
 sp.user_playlist_create(sp.me()['id'], "fake playlist")
+
+
+# connect to api's
+# copy playlists
+# copy starred/liked albums/podcasts/artists
